@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>메뉴판</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>메뉴판</title>
+    </head>
 
-<center>
-    메뉴판<p>
-    <button name="menu1" style="width:70pt;">아메리카노</button><br>
-    <button name="menu2" style="width:70pt;">카페라떼</button><br>
-    <button name="menu3" style="width:70pt;">녹차</button>
-</center>
+    <body>
+        {{ computername }}<p> <!-- 4. <body> 태그 바로 아래에 Flask에서 전달한 컴퓨터 이름을 표시 -->
 
-</body>
+        <center>
+            메뉴판<p>
+            <button name="menu1" style="width:70pt;">아메리카노</button><br>
+            <button name="menu2" style="width:70pt;">카페라떼</button><br>
+            <button name="menu3" style="width:70pt;">녹차</button>
+        </center>
+
+    </body>
 </html>
