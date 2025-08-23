@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '홈페이지다.'
+    return '홈페이지입나다.'
 
 @app.route('/menu')
 def menu():
