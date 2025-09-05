@@ -17,8 +17,8 @@ def home():
 def menu():
     return render_template('menu.html')
 
-@app.route("/test")
-def test():
+@app.route("/test1")
+def test1():
     return render_template('test.html')
 
 if __name__ == '__main__':
