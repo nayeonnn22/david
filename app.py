@@ -17,5 +17,9 @@ def home():
 def menu():
     return render_template('menu.html')
 
+@app.route("/test1")
+def test1():
+    return render_template('test1.html')
+
 if __name__ == '__main__':
     app.run(debug=True) # 5. app.run() 실행 시 debug=True 옵션을 설정
